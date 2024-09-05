@@ -17,7 +17,7 @@ nav{
 }
 .logo a{
     color: #fff;
-    font-size: 35px;
+    font-size: 33.5px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -59,8 +59,8 @@ nav ul li a.active,a:hover{
 }
 /* Making the navigation bar responsive to different sized devices */
 @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
+    .logo a{
+      font-size: 28px;
       padding-left: 50px;
     }
     nav ul li a{
