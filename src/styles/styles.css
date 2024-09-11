@@ -65,7 +65,7 @@ header a:hover, footer a:hover {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("/serviceLearningClassSite/src/images/home-bg.jpg");
+  background: url("/images/home-bg.jpg");
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
