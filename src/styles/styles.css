@@ -12,6 +12,7 @@ html{
 body {
   background: #f2f2f2;
 }
+/* Header and Footer Styles */
 header {
   position: fixed;
   top: 0;
@@ -62,6 +63,7 @@ header a, footer a {
 header a:hover, footer a:hover {
   color: #ddd;
 }
+/* Home page design and background */
 .homepage {
   height: 100vh;
   width: 100%;
