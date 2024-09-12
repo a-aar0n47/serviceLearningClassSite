@@ -208,37 +208,15 @@ section .cards .card {
   color: #7a7a7a;
   margin-right: 10px;
 }
-.contact form input {
-  height: 45px;
-  margin-bottom: 20px;
-  padding: 10px;
-  width: 100%;
-  font-size: 16px;
-  outline: none;
-  border: 1px solid #bfbfbf;
+.contact .git, .contact .email, .contact .officialSite{
+  text-decoration: none;
+  color: #000;
+  height: 100%;
 }
-.contact form textarea {
-  padding: 10px;
-  width: 100%;
-  font-size: 16px;
-  height: 150px;
-  outline: none;
-  resize: vertical;
-  border: 1px solid #bfbfbf;
-}
-.contact form button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 17px;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  background: #333;
-  transition: 0.2s ease;
-}
-.contact form button:hover {
-  background: #525252;
+.contact .git:hover, .contact .email:hover, .contact .officialSite{
+  z-index: 999;
+  color: #333;
+  size: 35px;
 }
 footer {
   width: 100%;
