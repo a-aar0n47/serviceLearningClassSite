@@ -262,6 +262,11 @@ footer span {
 footer a {
   padding: 0;
 }
+footer p{
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+}
 @media screen and (max-width: 860px) {
   .navbar .all-links {
     position: fixed;
@@ -314,7 +319,6 @@ footer a {
     height: 0;
   }
 }
-
 @media screen and (max-width: 560px) {
   section .cards .card {
     width: 100%;
