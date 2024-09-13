@@ -20,19 +20,19 @@ body {
   transform: translateX(0);
 }
 .card:nth-child(2) {
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 .card:nth-child(3) {
-  transition-delay: 400ms;
-}
-.card:nth-child(4) {
   transition-delay: 600ms;
 }
+.card:nth-child(4) {
+  transition-delay: 900ms;
+}
 .card:nth-child(5) {
-  transition-delay: 800ms;
+  transition-delay: 1200ms;
 }
 .card:nth-child(6) {
-  transition-delay: 1000ms;
+  transition-delay: 1500ms;
 }
 /* Header and Footer Styles */
 header {
