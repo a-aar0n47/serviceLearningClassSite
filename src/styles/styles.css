@@ -182,17 +182,17 @@ section .cards .card {
   width: calc(100% / 3 - 30px);
   text-align: center;
 }
-.portfolio .cards .card {
+.groups .cards .card {
   padding: 0 0 20px;
 }
-.services .card img {
+.topics .card img {
   width: 120px;
   height: 120px;
   margin-bottom: 20px;
   border-radius: 100%;
   object-fit: cover;
 }
-.portfolio .card img {
+.groups .card img {
   width: 100%;
   padding-bottom: 10px;
   aspect-ratio: 16 / 9;
@@ -252,13 +252,17 @@ footer div {
 footer span {
   color: #fff;
 }
-footer a {
-  padding: 0;
-}
-footer p{
+footer span:nth-of-type(2) {
   color: #fff;
   font-style: italic;
   font-weight: 600;
+  font-size: 1em;
+}
+footer a {
+  padding: 0;
+}
+footer #footerLogo{
+  width: 60px;
 }
 /* Media queries for page responsiveness on various sized devices */
 @media screen and (max-width: 860px) {
