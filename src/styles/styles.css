@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
   background: #f2f2f2;
@@ -251,12 +252,6 @@ footer div {
 }
 footer span {
   color: #fff;
-}
-footer span:nth-of-type(2) {
-  color: #fff;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 1em;
 }
 footer a {
   padding: 0;
