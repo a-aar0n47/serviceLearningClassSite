@@ -78,7 +78,7 @@ footer a:hover {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("images/templateImageAgaKhan.jpg");
+  background: url("/src/images/templateImageAgaKhan.jpg");
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
