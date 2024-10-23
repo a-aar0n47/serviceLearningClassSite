@@ -161,6 +161,15 @@ section .cards {
   justify-content: space-between;
 }
 
+section .cards .card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+section .cards .card p {
+  font-size: 16px;
+}
+
 section.about {
   margin: 0 auto;
   max-width: 1200px;
@@ -187,14 +196,6 @@ section .cards .card {
 
 .groups .cards .card {
   padding: 0 0 20px;
-}
-
-.topics .card img {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 20px;
-  border-radius: 100%;
-  object-fit: cover;
 }
 
 .groups .card img {
