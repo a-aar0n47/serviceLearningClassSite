@@ -11,40 +11,6 @@ body {
   background: #f2f2f2;
 }
 
-/* Subtle page animations */
-.hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all 1s;
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-
-.card:nth-child(2) {
-  transition-delay: 300ms;
-}
-
-.card:nth-child(3) {
-  transition-delay: 600ms;
-}
-
-.card:nth-child(4) {
-  transition-delay: 900ms;
-}
-
-.card:nth-child(5) {
-  transition-delay: 1200ms;
-}
-
-.card:nth-child(6) {
-  transition-delay: 1500ms;
-}
-
 /* Header and Footer Styles */
 header {
   position: fixed;
@@ -112,7 +78,7 @@ footer a:hover {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("/images/templateImageAgaKhan.jpg");
+  background: url("images/templateImageAgaKhan.jpg");
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
@@ -182,7 +148,7 @@ section h2 {
   font-size: 2rem;
 }
 
-section > p {
+section>p {
   text-align: center;
 }
 
@@ -328,7 +294,7 @@ footer #footerLogo {
     transition: left 0.3s ease;
   }
 
-  .navbar #menu-toggler:checked ~ .all-links {
+  .navbar #menu-toggler:checked~.all-links {
     left: 0;
   }
 
@@ -340,7 +306,7 @@ footer #footerLogo {
     display: block;
   }
 
-  section > p {
+  section>p {
     text-align: center;
   }
 
