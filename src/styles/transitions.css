@@ -47,3 +47,26 @@ main {
 .card:nth-child(6) {
     transition-delay: 1500ms;
 }
+
+/* Navigation links hover animation */
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #90ee90;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    transition: 0.5s;
+    margin: 0 20px;
+    /* Necessary for centering the animation */
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
