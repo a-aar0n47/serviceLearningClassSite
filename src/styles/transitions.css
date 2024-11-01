@@ -40,14 +40,6 @@ main {
     transition-delay: 900ms;
 }
 
-.card:nth-child(5) {
-    transition-delay: 1200ms;
-}
-
-.card:nth-child(6) {
-    transition-delay: 1500ms;
-}
-
 /* Navigation links hover animation */
 
 .navbar ul li {
