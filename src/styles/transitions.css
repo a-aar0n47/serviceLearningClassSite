@@ -63,3 +63,18 @@ main {
 .navbar ul li:hover::after {
     width: 100%;
 }
+
+@media screen and (max-width: 860px) {
+    .navbar ul li:first-of-type:hover::after {
+        width: 30%;
+    }
+    .navbar ul li:nth-of-type(2):hover::after {
+        width: 30%;
+    }
+    .navbar ul li:nth-of-type(3):hover::after {
+        width: 35%;
+    }
+    .navbar ul li:last-of-type:hover::after {
+        width: 42%;
+    }
+}
